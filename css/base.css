@@ -1,0 +1,13 @@
+html, body, h1, h2, h3, h4, h5,h6, p, div,form, input, textarea,section, article, header
+
+
+{margin: 0; padding: 0; box-sizing: border-box;}
+h1, h2, h3, h4, h5,h6 {font-weight: inherit;}
+/* font-weight : normal, bloder, bold,l ight, lighter */
+/* font-weight : 300, 400, 500, 600  max:800까지*/
+img{vertical-align: bottom;}
+a{color:inherit; text-decoration: none;}
+.clear::after {display: block; content: ''; clear: both;}
+.w100 {width: 100%;}
+/* 내 부모에 꽉 차게 만드는 것 */
+.mw100 {max-width: 100%;}

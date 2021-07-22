@@ -1,21 +1,63 @@
 /* ......comnmon........... */
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+body,html{font-family: 'Roboto Condensed', sans-serif;}
+.wrapper{max-width: 1600px; margin: 0 auto;}
+.wrapper1{max-width: 1100px; margin: 0 auto;}
 
-html,body{font-family: 'Nanum Myeongjo', serif;}
-.wrapper{max-width: 1600px; margin: 0 auto; height: 10000px;}
 
-/* ***************.header-wrapper***************** */
-.header-wrapper{background-color:white; ; box-shadow: 1px 3px 2px 1px rgba(224, 224, 224, 0.123); position: fixed; z-index: 999999999; width: 100%; padding: 10px;}
-.header-wrapper .navi-wrap{float:right;}
-.header-wrapper .navi-wrap .navi{float: right; padding: 10px; width: 65px; margin-right:10px; text-align: center; font-size: 15px; font-weight: bold;}
-.header-wrapper .navi-wrap .navi:hover{background-color: silver;}
 
-.header-wrapper .logo{float:left; padding:10px;;  }
-.header-wrapper .logo:hover{background-color: silver;}
 
-/* ************.mainimg-wrapper******************* */
+/* .......header-wrapper........... */
+.header-wrapper{position: fixed; box-shadow: 1px 2px 3px 1px rgb(221, 220, 220); padding: 15px 20px;; width: 100%; z-index: 9999; background-color: white;}
+.header-wrapper .logo-wrap{float:left; padding: 10px;}
+.header-wrapper .logo-wrap .logo{padding: 10px 10px; letter-spacing: 2px}
 
-.main-wrapper .wrapper img{position: relative;}
-.main-wrapper .wrapper .text{position: absolute; top:73%;left:10%; letter-spacing: 5px; z-index: 98;}
-.main-wrapper .wrapper .text h1{color:darkgray; }
+.header-wrapper .logo-wrap a:hover{background-color: lightgray; padding: 10px;}
+.header-wrapper .navi-wrap{float:right; padding: 10px 10px; font-size: 15px;}
+.header-wrapper .navi-wrap .navi{padding: 10px 30px; letter-spacing: 4px; font-weight: 100;}
+.header-wrapper .navi-wrap a:hover{background-color: lightgray;}
+
+/* .......main-wrapper........... */
+.main-wrapper{margin-bottom: 80px;}
+.main-wrapper .wrapper {position: relative;}
+.main-wrapper .wrapper .text {position:absolute; bottom:5%; left:3%; letter-spacing: 6px; color: gray;}
+
+
+/* .......about-wrapper........... */
+.about-wrapper{margin-bottom: 100px;}
+.about-wrapper .wrapper1 .abimg{ width:50%; height: 750px; background-image: url('../img/tablesetting2.jpg'); background-repeat: no-repeat; opacity: .7; float: left; background-position-x: 80%; background-position-y: 30%; background-size: cover; margin-right: 3%;}
+.about-wrapper .wrapper1 .abcatering{float: right; width:47%;}
+.about-wrapper .wrapper1 .abcatering .title{text-align: center; letter-spacing: 9px;
+margin: 30px 0px 55px 0px; font-size: 36px;}
+.about-wrapper .wrapper1 .abcatering .sub-title{text-align: center; letter-spacing: 6px; color: rgb(43, 43, 43); font-weight: 100;
+margin-bottom: 30px;}
+.wrapper1 .abcatering p{font-size: 18px; line-height: 180%; margin-bottom: 30px;}
+.wrapper1 .abcatering .ab-content2{font-weight: 100;}
+
+
+/* .......menu-wrapper........... */
+.menu-wrapper{margin: 100px 0px 100px 0px;}
+.menu-wrapper .wrapper1 .menuimg{ width:47%; height: 750px; background-image: url('../img/tablesetting.jpg'); background-repeat: no-repeat; opacity: .7; float: right; background-position-x: 80%; background-position-y: 30%; background-size: cover; margin-left: 3%;}
+.menu-wrapper .wrapper1 .menu-wrap{float: left; width:50%;}
+.menu-wrapper .wrapper1 .menu-wrap .title{text-align: center; letter-spacing: 9px;
+margin: 30px 0px 55px 0px; font-size: 36px;}
+.wrapper1 .menu-wrap .menu-list .li-name{letter-spacing: 3px; margin-bottom: 20px; font-size: 28px; }
+.wrapper1 .menu-wrap .menu-list .li-summery{margin-bottom: 35px; font-size: 15px; color: gray; opacity: .7; font-weight: 100;}
+    
+    
+/* .......contact-wrapper........... */
+.contact-wrapper{margin: 100px 0px 100px 0px;}
+.contact-wrapper .wrapper1 h1{letter-spacing: 9px; font-size: 36px; margin-bottom: 40px;}
+.wrapper1 p{font-size: 15px; line-height: 180%; margin-bottom: 10px;}
+.wrapper1 h3.slogan{color: rgb(52, 110, 117); margin: 8px 0; font-weight: bolder;}
+.form-wp{margin-bottom: 30px;}
+.form-wp .input{background:transparent; border:none; border-bottom: solid 1px #ccc; padding:20px 0px 15px 0px; font-size:11pt; width:100%}
+.wrapper1 .send span{background-color: lightgray; padding:10px 20px;}
+.wrapper1 .send span:hover{background-color:darkgray;}
+
+
+/* .......footer-wrapper........... */
+.footer-wrapper{background-color: rgb(231, 231, 231); text-align: center; padding:50px 0px;}
+.footer-wrapper > footer > a{text-decoration: underline;}
+.footer-wrapper > footer > a:hover{color: rgb(104, 167, 104);}
