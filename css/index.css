@@ -16,6 +16,6 @@ html,body{font-family: 'Nanum Myeongjo', serif;}
 
 /* ************.mainimg-wrapper******************* */
 
-.main-wrapper .wrapper img{position: relative; }
-.main-wrapper .wrapper .text{position: absolute; bottom:50%; letter-spacing: 5px; z-index: 98;}
-.mainimg-wrapper .wrapper p{color:red; border: 1px solid green; font-size: 30px; }
+.main-wrapper .wrapper img{position: relative;}
+.main-wrapper .wrapper .text{position: absolute; top:73%;left:10%; letter-spacing: 5px; z-index: 98;}
+.main-wrapper .wrapper .text h1{color:darkgray; }
