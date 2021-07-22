@@ -1,0 +1,21 @@
+/* ......comnmon........... */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+html,body{font-family: 'Nanum Myeongjo', serif;}
+.wrapper{max-width: 1600px; margin: 0 auto; height: 10000px;}
+
+/* ***************.header-wrapper***************** */
+.header-wrapper{background-color:white; ; box-shadow: 1px 3px 2px 1px rgba(224, 224, 224, 0.123); position: fixed; z-index: 999999999; width: 100%; padding: 10px;}
+.header-wrapper .navi-wrap{float:right;}
+.header-wrapper .navi-wrap .navi{float: right; padding: 10px; width: 65px; margin-right:10px; text-align: center; font-size: 15px; font-weight: bold;}
+.header-wrapper .navi-wrap .navi:hover{background-color: silver;}
+
+.header-wrapper .logo{float:left; padding:10px;;  }
+.header-wrapper .logo:hover{background-color: silver;}
+
+/* ************.mainimg-wrapper******************* */
+
+.main-wrapper .wrapper img{position: relative; }
+.main-wrapper .wrapper .text{position: absolute; bottom:50%; letter-spacing: 5px; z-index: 98;}
+.mainimg-wrapper .wrapper p{color:red; border: 1px solid green; font-size: 30px; }
